@@ -8,9 +8,9 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 
 /**
  * 
- * @author svaduka Compute the max temperature recorded in the given year, along
+ * @author manerm Compute the max temperature recorded in the given year, along
  *         with identify the date, value
- * 
+ *
  */
 public class WeatherMapper extends Mapper<LongWritable, Text, Text, Text> {
 

@@ -6,6 +6,12 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * 
+ * @author manerm Compute the number of words in a file 
+ *      wordcout Mapreduce Program is created
+ *
+ */
 public class WordCountMapper extends
 		Mapper<LongWritable, Text, Text, IntWritable> {
 
